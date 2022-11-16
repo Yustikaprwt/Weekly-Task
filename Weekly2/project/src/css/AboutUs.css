@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+.About-us-title a {
+    color: #F47181;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    size: 50px;
+}
+
+.About-us-title {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 18px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    cursor: pointer;
+}
+
+.About-us-title a:not(:last-child){
+    margin-right: 30px;
+}
+
+.About-us-title a:hover {
+    background: white;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.description-about-us {
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 10px 10px 20px 20px;
+    margin-top: 25px;
+    color: #F47181;
+    font-size: 15px;
+}
+

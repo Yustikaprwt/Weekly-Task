@@ -1,0 +1,152 @@
+.title {
+    color: white;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: black;
+    box-sizing: border-box ;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 5px 10px 5px 30px;
+    bottom: 0;
+    left: 0;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+}
+
+.footer .footer-left {
+    width: 30%;
+}
+
+.footer .footer-left img {
+    width: 50%;
+    vertical-align: middle;
+    margin-top: 70px;
+    margin-left: 25px;
+
+}
+
+.footer .footer-left .logo {
+    width: 100%;
+}
+
+.footer .footer-center {
+    width: 37%;
+    margin-top: 7px;
+}
+
+.footer .footer-center .icon {
+    background-color: #33383b;
+    padding: 5px 8px 5px 8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    margin: 10px 35px;
+    vertical-align: middle;
+}
+
+.footer .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.footer .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer .footer-center p a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer .footer-right {
+    width: 32%;
+}
+
+.footer-about {
+    line-height: 12px;
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 0px;
+    margin-top: 0px;
+    text-align: justify;
+}
+
+.footer .footer-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 7px;
+}
+
+.footer .footer-media {
+    margin-top: 15px;
+}
+
+.footer .footer-media a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 27px;
+    color: #F47181;
+    text-align: center;
+    line-height: 32px;
+    margin-right: 12px;
+    vertical-align: middle;
+    margin-bottom: 7px;
+}
+
+.footer .footer-media a:hover {
+    color: black;
+    background-color: #F47181;
+}
+
+@media (max-width: 880px) {
+
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+
+    .footer .footer-center i {
+        margin-left: 0px;
+    }
+}
