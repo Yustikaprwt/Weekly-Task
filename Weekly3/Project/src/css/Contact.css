@@ -1,0 +1,52 @@
+.contact-page {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.information {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+    background-color: black;
+    padding: 5px 5px 15px 0px;
+    border-radius: 50px;
+    max-width: 70%;
+    margin-left: 15%;
+}
+
+.information svg:hover {
+    color: #F47181;
+}
+
+.information a {
+    color: #F47181;
+    line-height: 35px;
+    font-size: 45px;
+    padding: 10px 10px 0px 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.information a:hover {
+    color: white;
+}
+
+.information svg {
+    margin: 10px 20px 10px 10px;
+}
+
+.information a span {
+    color: #F47181;
+    font-size: 20px;
+    font-weight: 600;
+}

@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+}
+
+.intro {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.recommendation-title{
+    font-family: 'PT Serif', serif;
+    margin-top: 115px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    color:#F47181 ; 
+    text-shadow:0 2px 2px gray;
+}
+
+.card {
+    padding: 10px 10px 30px 10px;
+    margin: 10px 10px 10px 10px;
+    width: 150px;
+    border-style: none;
+}
+
+.card-img-top {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-title {
+    font-size: 15px;
+    font-weight: 700px;
+}
